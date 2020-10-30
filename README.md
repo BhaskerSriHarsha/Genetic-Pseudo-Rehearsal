@@ -12,6 +12,8 @@ Step 1: Upload the "Genetic_rehearsal.py" file to your working directory. If you
 Step 2: Make sure that you are using Tensorflow 1.x version to run the file.<br>
 Step 3: Run the .ipynb file.
 
+Note:: The code to generate the synthetic data is in the .ipynb notebook itself. "Genetic_rehearsal.py" is being imported for some supporting functions.
+
 # Instructions to run the .py file
 
 TO BE ADDED SOON
