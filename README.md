@@ -2,9 +2,9 @@
 The repository is an official implementation of the paper  Pseudo Rehearsal using non-photo realistic images. <a href="https://arxiv.org/pdf/2004.13414.pdf"> Link to paper.</a>
 
 There are three implementations of the work. 
-1. The first implementation is in a .ipynb notebook. The entire code has been implemented in the notebook and can be readily run as a Google colab notebook.
-2. The second implementation is a .py file through which the user can make the necessary function calls to implement the code.
-3. The code has been implemented as an API and can be accessed via the following URL
+1. MNIST_Fashion_demo.ipynb: The entire code has been implemented in the notebook and was demonstrated on MNIST Fashion dataset by generating synthetic data for it and training a fresh neural network for it. Please refer to the paper for full details about the experiment. The .ipynb file can be readily used in Google colab environment.
+2. Genetic_Rehearsal.py: The user can make the necessary function calls to implement the code. All the code for generating synthetic data and required supporting functions are implemented in this file.
+3. The code has been implemented as an API and can be accessed via the following URL (TO BE ADDED)
 
 # Intructions to run the .ipynb notebook:
 
