@@ -18,7 +18,26 @@ TO BE ADDED SOON
 
 # Instructions to use the API.
 
-TO BE ADDED SOON.
+The work has been deployed on a server and can be accessed using HTTP methods. 
+
+<center><h3>ALGORITHM</h3></center>
+<hr>      
+      
+      training_flag=0
+      target_labels="1,2,3"
+      POST('home_page', data=target_labels, timeout=1)
+      trianing_flg=GET('home/training')
+      while training_flag == 1:
+        flag = GET("home/flag")
+        if flag == 1:
+          images = GET('home/images')
+          predictions = model(images)
+          POST('home/predictions',data=predictions)
+          POST('home/reset_flag',data=0)
+          POST('home/ready',data=1)
+        training_flag=GET('home/training')
+        synthetic_data=GET('home/synthetic_data')
+      
 
 
 For any queries please contact: cs18s506@iittp.ac.in or bhaskersuri@gmail.com
