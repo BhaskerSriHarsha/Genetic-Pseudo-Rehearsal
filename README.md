@@ -14,7 +14,7 @@ Step 3: Run the .ipynb file.
 
 # Instructions to run the .py file
 
-TO BE ADDED SOON
+The entire code to generate the synthetic data has been implemented as a function call in the file <b>Genetic_Rehearsal.py</b>. The file also contains other supporting code blocks to implement various selection mechanisms in genetic algorithms. To use the function call, download the file titled <b>Genetic_Rehearsal.py</b> from the folder <b>.py files</b>. Create a virtual environment with the required requirments that can be found in the <b>requirments.txt</b> file.
 
 # Instructions to use the API.
 
