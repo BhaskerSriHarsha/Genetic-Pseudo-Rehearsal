@@ -41,3 +41,5 @@ This implementation is intended for users who built neural networks using any fr
 
 
 For any queries please contact: cs18s506@iittp.ac.in or bhaskersuri@gmail.com
+
+Next updates: Rename training_flag to status_flag , flag to image_flag, ready to ready_flag
