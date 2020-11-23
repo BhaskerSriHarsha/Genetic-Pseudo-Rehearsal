@@ -26,7 +26,7 @@ This implementation is intended for users who built neural networks using any fr
       training_flag=0
       target_labels="1,2,3"
       POST('home_page', data=target_labels, timeout=1)
-      trianing_flg=GET('home/training')
+      trianing_flag=GET('home/training')
       while training_flag == 1:
         flag = GET("home/flag")
         if flag == 1:
