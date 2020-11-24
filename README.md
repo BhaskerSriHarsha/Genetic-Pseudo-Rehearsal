@@ -2,7 +2,7 @@
 The repository is an official implementation of the paper  Pseudo Rehearsal using non-photo realistic images. <a href="https://arxiv.org/pdf/2004.13414.pdf"> Link to paper.</a> The work has been accepted at 25th International Conference on Pattern Recognition(ICPR), 2020, Milan, Italy.
 
 To increase the availability of the work to a wider audience, the codes have been implemented in 3 formats. 
-1. The first implementation is in a .ipynb notebook. The entire code has been implemented in the notebook and can be readily run as a Google colab notebook. These notebooks can be found in the <b>.ipynb notebooks</b> folder.
+1. The first implementation is in a .ipynb notebook. The entire code has been implemented in the notebook and can be readily run as a Google colab notebook. These notebooks can be found in the <b>Jupyter notebooks</b> folder.
 2. The second implementation is a .py file. The code to generate the synthetic data has been implemented as a <i><b>function</b></i>. Users can download the .py file and <i><b>import</b></i> the function.
 3. To extend support to users using framework other than Tensorflow, an API version of the algorithm was implemented. The code can be deployed on a local server and can be accessed by any neural network implemented in any language.
 
