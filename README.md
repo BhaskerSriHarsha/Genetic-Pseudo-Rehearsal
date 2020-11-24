@@ -6,7 +6,7 @@ To increase the availability of the work to a wider audience, the codes have bee
 2. The second implementation is a .py file. The code to generate the synthetic data has been implemented as a <i><b>function</b></i>. Users can download the .py file and <i><b>import</b></i> the function.
 3. To extend support to users using framework other than Tensorflow, an API version of the algorithm was implemented. The code can be deployed on a local server and can be accessed by any neural network implemented in any language.
 
-# Intructions to run the .ipynb notebook:
+# Intructions to run the Jupyter notebook:
 
 Step 1: Upload the "Genetic_rehearsal.py" file to your working directory. If you are using google colab, upload it to runtime or mount it using your Google Drive.<br>
 Step 2: Make sure that you are using Tensorflow 1.x version to run the file.<br>
