@@ -23,23 +23,22 @@ This implementation is intended for users who built neural networks using any fr
 <center><h3>CLIENT SIDE ALGORITHM</h3></center>
 <hr>      
       
-      training_flag=0
+      status_flag=0
       target_labels="1,2,3"
-      POST('home_page', data=target_labels, timeout=1)
-      trianing_flag=GET('home/training')
-      while training_flag == 1:
-        flag = GET("home/flag")
-        if flag == 1:
+      POST('/', data=target_labels, timeout=1)
+      status_flag=GET('/training')
+      while status_flag == 1:
+        images_flag = GET("home/flag")
+        if images_flag == 1:
           images = GET('home/images')
           predictions = model(images)
           POST('home/predictions',data=predictions)
           POST('home/reset_flag',data=0)
           POST('home/ready',data=1)
-        training_flag=GET('home/training')
-        synthetic_data=GET('home/synthetic_data')
+        status_flag=GET('home/training')
+      
+      synthetic_data=GET('home/synthetic_data')
       
 
 
 For any queries please contact: cs18s506@iittp.ac.in or bhaskersuri@gmail.com
-
-Next updates: Rename training_flag to status_flag , flag to image_flag, ready to ready_flag
