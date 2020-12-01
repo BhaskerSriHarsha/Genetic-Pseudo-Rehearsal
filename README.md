@@ -3,7 +3,7 @@ The repository is an official implementation of the paper  Pseudo Rehearsal usin
 
 To increase the availability of the work to a wider audience, the codes have been implemented in 3 formats. 
 1. The first implementation is in a .ipynb notebook. The entire code has been implemented in the notebook and can be readily run as a Google colab notebook. These notebooks can be found in the <b>Jupyter notebooks</b> folder. The notebooks can be used to directly replicate the results in Figure 3 of the main paper. The notebooks for replicating the experiments on MNIST Fashion and CIFAR10 have been provided directly. They can be used to implement the algorithm on SVHN and MNIST Digits datasets as well.
-2. The second implementation is a .py file. The code to generate the synthetic data has been implemented as a <i><b>function</b></i>. Users can download the .py file and <i><b>import</b></i> the function.
+2. The second implementation is a .py file. The code to generate the synthetic data has been implemented as a <i><b>function</b></i>. Users can download the .py file and <i><b>import</b></i> the function. An .ipynb notebook named (<b>Python_File_test_rig.ipynb</b>) has been added in the folder to demonstrate the usage of the .py file and the import function.
 3. To extend support to users using framework other than Tensorflow, an API version of the algorithm was implemented. The code can be deployed on a local server and can be accessed by any neural network implemented in any language.
 
 # Intructions to run the Jupyter notebook:
