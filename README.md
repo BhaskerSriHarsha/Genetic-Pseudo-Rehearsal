@@ -28,16 +28,16 @@ This implementation is intended for users who built neural networks using any fr
       POST('/', data=target_labels, timeout=1)
       status_flag=GET('/training')
       while status_flag == 1:
-        images_flag = GET("home/flag")
+        images_flag = GET("/flag")
         if images_flag == 1:
-          images = GET('home/images')
+          images = GET('/images')
           predictions = model(images)
-          POST('home/predictions',data=predictions)
-          POST('home/reset_flag',data=0)
-          POST('home/ready',data=1)
-        status_flag=GET('home/training')
+          POST('/predictions',data=predictions)
+          POST('/reset_flag',data=0)
+          POST('/ready',data=1)
+        status_flag=GET('/training')
       
-      synthetic_data=GET('home/synthetic_data')
+      synthetic_data=GET('/synthetic_data')
       
 
 
