@@ -5,6 +5,7 @@ import tensorflow as tf
 
 
 # GLOBAL VARIABLES
+# Also called as "status_flag" in the companion paper.
 training_flag = "0"
 
 
@@ -29,10 +30,11 @@ print("Fetched the trianing flag: ", fetched_training_flag.text, type(fetched_tr
 training_flag = fetched_training_flag.text
 print("Training flag updated to: ",training_flag)
 
-while training_flag=="1":
+while training_flag=="1":# or also status_flag
 
     print("\n \n Requesting flag variable")
     flag = requests.get("http://127.0.0.1:5000/flag")
+    # this flag was named as "images_flag" in the companion paper and the original algorithm. Will be changed in the future.
     print("received flag variable ", flag.text)
 
     print("\nChecking if flag variable is true")
